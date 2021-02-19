@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDE6747225DFB16D002460D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6747125DFB16D002460D0 /* AppDelegate.swift */; };
+		EDE6747425DFB16D002460D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6747325DFB16D002460D0 /* SceneDelegate.swift */; };
+		EDE6747625DFB16D002460D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6747525DFB16D002460D0 /* ViewController.swift */; };
+		EDE6747925DFB16D002460D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE6747725DFB16D002460D0 /* Main.storyboard */; };
+		EDE6747B25DFB172002460D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE6747A25DFB172002460D0 /* Assets.xcassets */; };
+		EDE6747E25DFB172002460D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE6747C25DFB172002460D0 /* LaunchScreen.storyboard */; };
+		EDE6748925DFB172002460D0 /* RussianSableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6748825DFB172002460D0 /* RussianSableTests.swift */; };
+		EDE6749425DFB172002460D0 /* RussianSableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6749325DFB172002460D0 /* RussianSableUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDE6748525DFB172002460D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE6746625DFB16D002460D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE6746D25DFB16D002460D0;
+			remoteInfo = RussianSable;
+		};
+		EDE6749025DFB172002460D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDE6746625DFB16D002460D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDE6746D25DFB16D002460D0;
+			remoteInfo = RussianSable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDE6746E25DFB16D002460D0 /* RussianSable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianSable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE6747125DFB16D002460D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDE6747325DFB16D002460D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDE6747525DFB16D002460D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDE6747825DFB16D002460D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDE6747A25DFB172002460D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDE6747D25DFB172002460D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDE6747F25DFB172002460D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE6748425DFB172002460D0 /* RussianSableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianSableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE6748825DFB172002460D0 /* RussianSableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianSableTests.swift; sourceTree = "<group>"; };
+		EDE6748A25DFB172002460D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE6748F25DFB172002460D0 /* RussianSableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianSableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE6749325DFB172002460D0 /* RussianSableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianSableUITests.swift; sourceTree = "<group>"; };
+		EDE6749525DFB172002460D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDE6746B25DFB16D002460D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6748125DFB172002460D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6748C25DFB172002460D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDE6746525DFB16D002460D0 = {
+			isa = PBXGroup;
+			children = (
+				EDE6747025DFB16D002460D0 /* RussianSable */,
+				EDE6748725DFB172002460D0 /* RussianSableTests */,
+				EDE6749225DFB172002460D0 /* RussianSableUITests */,
+				EDE6746F25DFB16D002460D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDE6746F25DFB16D002460D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6746E25DFB16D002460D0 /* RussianSable.app */,
+				EDE6748425DFB172002460D0 /* RussianSableTests.xctest */,
+				EDE6748F25DFB172002460D0 /* RussianSableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDE6747025DFB16D002460D0 /* RussianSable */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6747125DFB16D002460D0 /* AppDelegate.swift */,
+				EDE6747325DFB16D002460D0 /* SceneDelegate.swift */,
+				EDE6747525DFB16D002460D0 /* ViewController.swift */,
+				EDE6747725DFB16D002460D0 /* Main.storyboard */,
+				EDE6747A25DFB172002460D0 /* Assets.xcassets */,
+				EDE6747C25DFB172002460D0 /* LaunchScreen.storyboard */,
+				EDE6747F25DFB172002460D0 /* Info.plist */,
+			);
+			path = RussianSable;
+			sourceTree = "<group>";
+		};
+		EDE6748725DFB172002460D0 /* RussianSableTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6748825DFB172002460D0 /* RussianSableTests.swift */,
+				EDE6748A25DFB172002460D0 /* Info.plist */,
+			);
+			path = RussianSableTests;
+			sourceTree = "<group>";
+		};
+		EDE6749225DFB172002460D0 /* RussianSableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6749325DFB172002460D0 /* RussianSableUITests.swift */,
+				EDE6749525DFB172002460D0 /* Info.plist */,
+			);
+			path = RussianSableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDE6746D25DFB16D002460D0 /* RussianSable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE6749825DFB172002460D0 /* Build configuration list for PBXNativeTarget "RussianSable" */;
+			buildPhases = (
+				EDE6746A25DFB16D002460D0 /* Sources */,
+				EDE6746B25DFB16D002460D0 /* Frameworks */,
+				EDE6746C25DFB16D002460D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussianSable;
+			productName = RussianSable;
+			productReference = EDE6746E25DFB16D002460D0 /* RussianSable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDE6748325DFB172002460D0 /* RussianSableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE6749B25DFB172002460D0 /* Build configuration list for PBXNativeTarget "RussianSableTests" */;
+			buildPhases = (
+				EDE6748025DFB172002460D0 /* Sources */,
+				EDE6748125DFB172002460D0 /* Frameworks */,
+				EDE6748225DFB172002460D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE6748625DFB172002460D0 /* PBXTargetDependency */,
+			);
+			name = RussianSableTests;
+			productName = RussianSableTests;
+			productReference = EDE6748425DFB172002460D0 /* RussianSableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDE6748E25DFB172002460D0 /* RussianSableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE6749E25DFB172002460D0 /* Build configuration list for PBXNativeTarget "RussianSableUITests" */;
+			buildPhases = (
+				EDE6748B25DFB172002460D0 /* Sources */,
+				EDE6748C25DFB172002460D0 /* Frameworks */,
+				EDE6748D25DFB172002460D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDE6749125DFB172002460D0 /* PBXTargetDependency */,
+			);
+			name = RussianSableUITests;
+			productName = RussianSableUITests;
+			productReference = EDE6748F25DFB172002460D0 /* RussianSableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDE6746625DFB16D002460D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EDE6746D25DFB16D002460D0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EDE6748325DFB172002460D0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDE6746D25DFB16D002460D0;
+					};
+					EDE6748E25DFB172002460D0 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EDE6746D25DFB16D002460D0;
+					};
+				};
+			};
+			buildConfigurationList = EDE6746925DFB16D002460D0 /* Build configuration list for PBXProject "RussianSable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDE6746525DFB16D002460D0;
+			productRefGroup = EDE6746F25DFB16D002460D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDE6746D25DFB16D002460D0 /* RussianSable */,
+				EDE6748325DFB172002460D0 /* RussianSableTests */,
+				EDE6748E25DFB172002460D0 /* RussianSableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDE6746C25DFB16D002460D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE6747E25DFB172002460D0 /* LaunchScreen.storyboard in Resources */,
+				EDE6747B25DFB172002460D0 /* Assets.xcassets in Resources */,
+				EDE6747925DFB16D002460D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6748225DFB172002460D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6748D25DFB172002460D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDE6746A25DFB16D002460D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE6747625DFB16D002460D0 /* ViewController.swift in Sources */,
+				EDE6747225DFB16D002460D0 /* AppDelegate.swift in Sources */,
+				EDE6747425DFB16D002460D0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6748025DFB172002460D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE6748925DFB172002460D0 /* RussianSableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6748B25DFB172002460D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE6749425DFB172002460D0 /* RussianSableUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDE6748625DFB172002460D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE6746D25DFB16D002460D0 /* RussianSable */;
+			targetProxy = EDE6748525DFB172002460D0 /* PBXContainerItemProxy */;
+		};
+		EDE6749125DFB172002460D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDE6746D25DFB16D002460D0 /* RussianSable */;
+			targetProxy = EDE6749025DFB172002460D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDE6747725DFB16D002460D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE6747825DFB16D002460D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDE6747C25DFB172002460D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDE6747D25DFB172002460D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDE6749625DFB172002460D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDE6749725DFB172002460D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDE6749925DFB172002460D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B77P8QVBQ8;
+				INFOPLIST_FILE = RussianSable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK.RussianSable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDE6749A25DFB172002460D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B77P8QVBQ8;
+				INFOPLIST_FILE = RussianSable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK.RussianSable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDE6749C25DFB172002460D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B77P8QVBQ8;
+				INFOPLIST_FILE = RussianSableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK.RussianSableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianSable.app/RussianSable";
+			};
+			name = Debug;
+		};
+		EDE6749D25DFB172002460D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B77P8QVBQ8;
+				INFOPLIST_FILE = RussianSableTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK.RussianSableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianSable.app/RussianSable";
+			};
+			name = Release;
+		};
+		EDE6749F25DFB172002460D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B77P8QVBQ8;
+				INFOPLIST_FILE = RussianSableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK.RussianSableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RussianSable;
+			};
+			name = Debug;
+		};
+		EDE674A025DFB172002460D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B77P8QVBQ8;
+				INFOPLIST_FILE = RussianSableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KK.RussianSableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RussianSable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDE6746925DFB16D002460D0 /* Build configuration list for PBXProject "RussianSable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6749625DFB172002460D0 /* Debug */,
+				EDE6749725DFB172002460D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE6749825DFB172002460D0 /* Build configuration list for PBXNativeTarget "RussianSable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6749925DFB172002460D0 /* Debug */,
+				EDE6749A25DFB172002460D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE6749B25DFB172002460D0 /* Build configuration list for PBXNativeTarget "RussianSableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6749C25DFB172002460D0 /* Debug */,
+				EDE6749D25DFB172002460D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE6749E25DFB172002460D0 /* Build configuration list for PBXNativeTarget "RussianSableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE6749F25DFB172002460D0 /* Debug */,
+				EDE674A025DFB172002460D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDE6746625DFB16D002460D0 /* Project object */;
+}
