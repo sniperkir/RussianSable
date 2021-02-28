@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		EDE6747225DFB16D002460D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6747125DFB16D002460D0 /* AppDelegate.swift */; };
 		EDE6747425DFB16D002460D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6747325DFB16D002460D0 /* SceneDelegate.swift */; };
-		EDE6747625DFB16D002460D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6747525DFB16D002460D0 /* ViewController.swift */; };
 		EDE6747925DFB16D002460D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE6747725DFB16D002460D0 /* Main.storyboard */; };
 		EDE6747B25DFB172002460D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE6747A25DFB172002460D0 /* Assets.xcassets */; };
 		EDE6747E25DFB172002460D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE6747C25DFB172002460D0 /* LaunchScreen.storyboard */; };
 		EDE6748925DFB172002460D0 /* RussianSableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6748825DFB172002460D0 /* RussianSableTests.swift */; };
 		EDE6749425DFB172002460D0 /* RussianSableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6749325DFB172002460D0 /* RussianSableUITests.swift */; };
+		EDE674C525DFC25E002460D0 /* ReestrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE674C425DFC25E002460D0 /* ReestrViewController.swift */; };
+		EDE674DE25DFEA22002460D0 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE674DD25DFEA22002460D0 /* ApiClient.swift */; };
+		EDE674F325E116E1002460D0 /* sobol.png in Resources */ = {isa = PBXBuildFile; fileRef = EDE674F225E116E1002460D0 /* sobol.png */; };
+		EDE674F825E124A2002460D0 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE674F725E124A2002460D0 /* ReportViewController.swift */; };
+		EDE674FD25E1287C002460D0 /* ReportFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE674FC25E1287C002460D0 /* ReportFiles.swift */; };
+		EDE6751625E35015002460D0 /* Reestr.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6751525E35015002460D0 /* Reestr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		EDE6746E25DFB16D002460D0 /* RussianSable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianSable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE6747125DFB16D002460D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE6747325DFB16D002460D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDE6747525DFB16D002460D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDE6747825DFB16D002460D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDE6747A25DFB172002460D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE6747D25DFB172002460D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		EDE6748F25DFB172002460D0 /* RussianSableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianSableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE6749325DFB172002460D0 /* RussianSableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianSableUITests.swift; sourceTree = "<group>"; };
 		EDE6749525DFB172002460D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE674C425DFC25E002460D0 /* ReestrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReestrViewController.swift; sourceTree = "<group>"; };
+		EDE674DD25DFEA22002460D0 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		EDE674F225E116E1002460D0 /* sobol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sobol.png; path = ../../../../../Downloads/sobol.png; sourceTree = "<group>"; };
+		EDE674F725E124A2002460D0 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		EDE674FC25E1287C002460D0 /* ReportFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFiles.swift; sourceTree = "<group>"; };
+		EDE6751525E35015002460D0 /* Reestr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reestr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,14 @@
 		EDE6747025DFB16D002460D0 /* RussianSable */ = {
 			isa = PBXGroup;
 			children = (
+				EDE674E925E0E413002460D0 /* Images */,
+				EDE674E525E0C720002460D0 /* Storyboards */,
+				EDE674E425E0C6E5002460D0 /* Screens */,
+				EDE674E325E0C6B4002460D0 /* Models */,
+				EDE674E225E0C6A3002460D0 /* Network */,
 				EDE6747125DFB16D002460D0 /* AppDelegate.swift */,
 				EDE6747325DFB16D002460D0 /* SceneDelegate.swift */,
-				EDE6747525DFB16D002460D0 /* ViewController.swift */,
-				EDE6747725DFB16D002460D0 /* Main.storyboard */,
 				EDE6747A25DFB172002460D0 /* Assets.xcassets */,
-				EDE6747C25DFB172002460D0 /* LaunchScreen.storyboard */,
 				EDE6747F25DFB172002460D0 /* Info.plist */,
 			);
 			path = RussianSable;
@@ -126,6 +138,49 @@
 				EDE6749525DFB172002460D0 /* Info.plist */,
 			);
 			path = RussianSableUITests;
+			sourceTree = "<group>";
+		};
+		EDE674E225E0C6A3002460D0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EDE674DD25DFEA22002460D0 /* ApiClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EDE674E325E0C6B4002460D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDE674FC25E1287C002460D0 /* ReportFiles.swift */,
+				EDE6751525E35015002460D0 /* Reestr.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDE674E425E0C6E5002460D0 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EDE674C425DFC25E002460D0 /* ReestrViewController.swift */,
+				EDE674F725E124A2002460D0 /* ReportViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EDE674E525E0C720002460D0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EDE6747725DFB16D002460D0 /* Main.storyboard */,
+				EDE6747C25DFB172002460D0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EDE674E925E0E413002460D0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EDE674F225E116E1002460D0 /* sobol.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +289,7 @@
 				EDE6747E25DFB172002460D0 /* LaunchScreen.storyboard in Resources */,
 				EDE6747B25DFB172002460D0 /* Assets.xcassets in Resources */,
 				EDE6747925DFB16D002460D0 /* Main.storyboard in Resources */,
+				EDE674F325E116E1002460D0 /* sobol.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDE6747625DFB16D002460D0 /* ViewController.swift in Sources */,
 				EDE6747225DFB16D002460D0 /* AppDelegate.swift in Sources */,
+				EDE674C525DFC25E002460D0 /* ReestrViewController.swift in Sources */,
+				EDE674DE25DFEA22002460D0 /* ApiClient.swift in Sources */,
+				EDE674F825E124A2002460D0 /* ReportViewController.swift in Sources */,
 				EDE6747425DFB16D002460D0 /* SceneDelegate.swift in Sources */,
+				EDE6751625E35015002460D0 /* Reestr.swift in Sources */,
+				EDE674FD25E1287C002460D0 /* ReportFiles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
