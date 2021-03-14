@@ -21,7 +21,7 @@ class ReestrViewController: UIViewController, UITableViewDataSource, UITableView
     
     @IBOutlet weak var skinNumberLabel: UILabel!
     var skins: [SkinReestr] = []
-    let apiClientReestr: ApiClientReestr = ApiClientReestrImpl()
+    let apiClientReestr: ApiClient = ApiClientImpl()
     
     
     override func viewDidLoad() {
