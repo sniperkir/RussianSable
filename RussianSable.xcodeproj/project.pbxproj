@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED2953AE25FE40C800A43B36 /* AuctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2953AD25FE40C800A43B36 /* AuctionViewController.swift */; };
+		ED2953B325FE424C00A43B36 /* Auctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2953B225FE424C00A43B36 /* Auctions.swift */; };
 		EDE6747225DFB16D002460D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6747125DFB16D002460D0 /* AppDelegate.swift */; };
 		EDE6747425DFB16D002460D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6747325DFB16D002460D0 /* SceneDelegate.swift */; };
 		EDE6747925DFB16D002460D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE6747725DFB16D002460D0 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED2953AD25FE40C800A43B36 /* AuctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionViewController.swift; sourceTree = "<group>"; };
+		ED2953B225FE424C00A43B36 /* Auctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auctions.swift; sourceTree = "<group>"; };
 		EDE6746E25DFB16D002460D0 /* RussianSable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianSable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE6747125DFB16D002460D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE6747325DFB16D002460D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 			children = (
 				EDE674FC25E1287C002460D0 /* ReportFiles.swift */,
 				EDE6751525E35015002460D0 /* Reestr.swift */,
+				ED2953B225FE424C00A43B36 /* Auctions.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 			children = (
 				EDE674C425DFC25E002460D0 /* ReestrViewController.swift */,
 				EDE674F725E124A2002460D0 /* ReportViewController.swift */,
+				ED2953AD25FE40C800A43B36 /* AuctionViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -314,9 +320,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2953AE25FE40C800A43B36 /* AuctionViewController.swift in Sources */,
 				EDE6747225DFB16D002460D0 /* AppDelegate.swift in Sources */,
 				EDE674C525DFC25E002460D0 /* ReestrViewController.swift in Sources */,
 				EDE674DE25DFEA22002460D0 /* ApiClient.swift in Sources */,
+				ED2953B325FE424C00A43B36 /* Auctions.swift in Sources */,
 				EDE674F825E124A2002460D0 /* ReportViewController.swift in Sources */,
 				EDE6747425DFB16D002460D0 /* SceneDelegate.swift in Sources */,
 				EDE6751625E35015002460D0 /* Reestr.swift in Sources */,

@@ -18,6 +18,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
+                        <segue destination="5LL-mN-tjQ" kind="relationship" relationship="viewControllers" id="5ay-S4-nuJ"/>
                         <segue destination="x0c-wX-PeN" kind="relationship" relationship="viewControllers" id="URV-3h-POP"/>
                         <segue destination="4gT-x3-HFh" kind="relationship" relationship="viewControllers" id="Kde-6C-upc"/>
                         <segue destination="yyL-bq-Su5" kind="relationship" relationship="viewControllers" id="F3g-cH-1AS"/>
@@ -44,6 +45,80 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8I-Ja-Eph" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1412" y="-257"/>
+        </scene>
+        <!--Аукционы-->
+        <scene sceneID="UKm-au-Edr">
+            <objects>
+                <navigationController id="5LL-mN-tjQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Аукционы" image="house" catalog="system" id="mwQ-0Z-f0w"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RaO-aG-Zn9">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2Vj-JM-C6y" kind="relationship" relationship="rootViewController" id="xXY-bL-8LM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Inj-fT-bdY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1413" y="-944"/>
+        </scene>
+        <!--Auction View Controller-->
+        <scene sceneID="9wD-DH-Vea">
+            <objects>
+                <viewController id="2Vj-JM-C6y" customClass="AuctionViewController" customModule="RussianSable" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jt4-uf-v3O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eyg-YP-6Z0">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="72" id="m8D-63-M4b">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="72"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m8D-63-M4b" id="eCm-nl-UaW">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="72"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Auction Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zot-jh-UBg">
+                                                    <rect key="frame" x="35" y="11" width="124" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dates" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSl-EV-PZH">
+                                                    <rect key="frame" x="35" y="40" width="45" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="2Vj-JM-C6y" id="k7U-az-SqK"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZDe-f9-M4p"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eyg-YP-6Z0" firstAttribute="top" secondItem="ZDe-f9-M4p" secondAttribute="top" id="L7Z-Oe-2n0"/>
+                            <constraint firstItem="ZDe-f9-M4p" firstAttribute="bottom" secondItem="eyg-YP-6Z0" secondAttribute="bottom" id="djC-Ib-n7i"/>
+                            <constraint firstItem="ZDe-f9-M4p" firstAttribute="trailing" secondItem="eyg-YP-6Z0" secondAttribute="trailing" id="eLC-D5-RPD"/>
+                            <constraint firstItem="eyg-YP-6Z0" firstAttribute="leading" secondItem="ZDe-f9-M4p" secondAttribute="leading" id="wTt-YC-h7J"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="B3L-iU-Rx0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7P7-Qc-Vv7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-468.11594202898556" y="-944.19642857142856"/>
         </scene>
         <!--Реестр-->
         <scene sceneID="y9X-nP-fYQ">
@@ -131,7 +206,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L0w-DK-dew" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-635" y="-1014"/>
+            <point key="canvasLocation" x="-468" y="-257"/>
         </scene>
         <!--Сообщения-->
         <scene sceneID="evt-Os-0PJ">
@@ -270,6 +345,7 @@
     <resources>
         <image name="doc.text" catalog="system" width="115" height="128"/>
         <image name="gear" catalog="system" width="128" height="119"/>
+        <image name="house" catalog="system" width="128" height="106"/>
         <image name="message" catalog="system" width="128" height="113"/>
         <image name="table" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
