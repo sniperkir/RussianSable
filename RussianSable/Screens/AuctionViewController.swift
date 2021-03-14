@@ -9,6 +9,10 @@ import UIKit
 
 class AuctionViewController: UIViewController {
 
+    
+    @IBOutlet weak var auctionNumberLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
